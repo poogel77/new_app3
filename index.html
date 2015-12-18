@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>OMTAMIL MOBILE APPS WORKSHOP</title>
+<link rel="stylesheet"  href="css/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="css/jqm-demos.css">
+<style>
+		#homeBanner {
+			width: 100%;
+		}
+		.center {
+			text-align: center;
+			margin-left: auto;
+			margin-right:auto;
+		}
+</style>
+	
+<link rel="stylesheet" href="css/leaflet.css" />
+<link rel="stylesheet" href="css/sample.css" />
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+</head>	
+<body>
+
+
+<div id="homeScreen" data-role="page">
+<img src="imgs/banner.png" width="100%">
+<div data-role="header"> 
+<a href="#menu" data-icon="bars" title="Back">Menu</a>
+<h1>APPS WORKSHOP</h1>
+<a href="#language" data-icon="gear" class="ui-btn ui-icon-gear ui-btn-icon-notext ui-btn-right ui-nodisc-icon ui-alt-icon">Language</a>
+</div>
+
+
+<div data-role="panel" id="menu" data-position="left" data-theme="b" data-display="overlay">
+<img src="imgs/phones.png" width="100%">
+<p>
+<ul data-role="listview">
+ <li data-icon="delete" data-theme="a"><a href="#" data-rel="close">Close menu</a></li>
+<li><a href="kural.html" rel="external">Sample App 1</a></li>
+<li><a href="quiz.html" rel="external">Sample App 2</a></li>
+<li><a href="tictactoe.html" rel="external">Sample App 3</a></li>
+
+<li data-theme="a">Sample Google Play Apps</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.omtamil_thirukkural_oss_app" rel="external">Thirukkural OS</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.SJKTTSINNOVATIONCLUB" rel="external">Tamil Arivu</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=in.tamil.peyar" rel="external">Tamil Peyar</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.yahoo.poogel77" rel="external">Learn Tamil</a></li>
+
+</ul>
+
+</div>
+
+	
+<div data-role="panel" id="language" data-position="right" data-display="push">
+<ul data-role="listview">
+
+
+<li data-theme="b">Who can participate?</li>
+<ol>
+<li>Passionate individuals who want to Create Mobile Apps</li>
+<li>Aspiring Teachers who want to Teach Mobile Development</li>
+<li>Innovative Students who wish to invent creative apps</li>
+<li>Business Owners who plan to engage customers with app</li>
+<li>Marketing professionals who wish to market a business with app</li>
+</ol>
+<li data-theme="b">Participant Requirements</li>
+<ol>
+<li>PC or Mac</li>
+<li>Android 4.2 Above</li>
+<li>Basic understand of HTML, CSS and Javascript</li>
+</ol>
+<br>
+<p align="center">
+<a href="http://omtamil.tv" rel="external"><img src="imgs/omtamil.tv logo.png" width="70%"></a>
+</p>
+
+
+
+
+
+</ul>
+</div>
+		
+	<!-- header -->	
+	
+<div data-role="content">
+<!-- content -->
+<ul data-role="listview"  data-filter="true" data-inset="true" class="ui-nodisc-icon ui-alt-icon" data-filter-placeholder="Search">
+	
+<li><a href="#trends"><img src="imgs/trend.png">
+<h2>Mobile Apps Trends</h2>
+<p>4.4 billion users by 2017 </p></a>
+</li>
+	
+<li><a href="#type"> <img src="imgs/native-web-hybrid.png">
+<h2>Type of Apps</h2>
+<p>Native | Web | Hybrid</p></a>
+</li>
+			
+<li><a href="#frameworks"><img src="imgs/frameworks.png">
+<h2>Apps Frameworks</h2>
+<p>Simplify development process</p></a>
+</li>
+			
+<li><a href="#html5"><img src="imgs/html5.png">
+<h2>Easy Programming</h2>
+<p>HTML5,CSS3,Javascript</p></a>
+</li>
+			
+<li><a href="#cross"><img src="imgs/cross.png">
+<h2>Build Cross Platform Apps</h2>
+<p>Android, iOS & Windows Mobile</p></a>
+</li>
+						
+</ul>
+</div>
+</div>
+
+
+<div id="trends" data-role="page">
+
+<header data-role="header" data-position="fixed" data-id="appHeader">
+<h1>APPS WORKSHOP</h1>
+<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
+</header>
+
+<div data-role="content">
+<h3 class="center">Mobile OS Market Share</h3>
+
+<center>	
+
+<img src="imgs/market-share-1.jpg" width="100%"/> 
+<h3 class="center">Mobile APPS users and downloads</h3>
+<img src="imgs/market-share-1.png" width="100%"/> 
+<img src="imgs/market-share-2.jpg" width="100%"/> 
+
+</center>
+
+</div>
+</div>
+
+
+<div id="type" data-role="page">
+
+<header data-role="header" data-position="fixed" data-id="appHeader">
+<h1>APPS WORKSHOP</h1>
+<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
+</header>
+
+<div data-role="content">
+
+<h3 class="center">Types of Mobile Apps</h3>
+
+<center>	
+<img src="imgs/native-web-hybrid-full.png" width="100%"/> 
+<img src="imgs/native-web-hybrid-2.png" width="100%"/> 
+<img src="imgs/native-web-hybrid-3.png" width="100%"/> 
+</center>
+
+</div>
+</div>
+
+<div id="frameworks" data-role="page">
+
+<header data-role="header" data-position="fixed" data-id="appHeader">
+<h1>APPS WORKSHOP</h1>
+<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
+</header>
+
+<div data-role="content">
+
+<h3 class="center">Types of Hybrid Frameworks</h3>
+
+<center>	
+<img src="imgs/jquery.png" width="60%"> 
+<img src="imgs/angular.png" width="60%"> 
+<img src="imgs/ionic.png" width="60%">
+<img src="imgs/kendo.png" width="60%"> 
+<img src="imgs/react.png" width="60%"> 
+<img src="imgs/sencha.png" width="60%"> 
+</center>
+
+</div>
+</div>
+
+
+<div id="html5" data-role="page">
+
+<header data-role="header" data-position="fixed" data-id="appHeader">
+<h1>APPS WORKSHOP</h1>
+<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
+</header>
+
+<div data-role="content">
+
+<h3 class="center">Easy Programming</h3>
+
+<center>	
+<img src="imgs/html5-css3-js.png" width="80%"> 
+</center>
+
+</div>
+</div>
+
+<div id="cross" data-role="page">
+
+<header data-role="header" data-position="fixed" data-id="appHeader">
+<h1>APPS WORKSHOP</h1>
+<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
+</header>
+
+<div data-role="content">
+
+<h3 class="center">Build Cross Platform Apps</h3>
+
+<center>	
+<img src="imgs/phonegap.png" width="80%"> 
+
+
+<h3 class="center">1 Development - Multiple Apps</h3>
+
+Android, iOS and Windows Mobile Devices.
+</center>
+</div>
+</div>
+
+</body>
+</html>
