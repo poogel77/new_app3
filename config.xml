@@ -49,9 +49,10 @@ MUHELEN MURUGAN
     <!-- Core plugins -->
     <gap:plugin name="org.apache.cordova.splashscreen" />
 	<gap:plugin name="org.apache.cordova.media" />
-	<gap:plugin name="com.admob.plugin" version="3.0.0" source="plugins.cordova.io" />
+	
 	<gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
-
+<gap:plugin name="cordova-plugin-admob" source="npm" />
+<framework src="com.google.android.gms:play-services-ads:+" />
 
     <!--
         <gap:plugin name="Example" />
